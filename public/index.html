@@ -212,7 +212,7 @@ async function generateFlashcards() {
     const context = item.t;
 
     const aiResponse = await fetch(
-      'https://YOUR-BACKEND-URL.onrender.com/generate',
+      'https://frz-generations.onrender.com/generate',
       {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -239,3 +239,4 @@ async function generateFlashcards() {
 </script>
 </body>
 </html>
+
